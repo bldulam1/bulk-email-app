@@ -5,7 +5,7 @@ function App() {
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
       <img src="https://source.unsplash.com/random" alt="" className="w-full" />
       <div className="px-6 py-4">
-        <div className="font-bold text-purple-500 text-xl mb-2">
+        <div className="font-bold text-purple-600 text-xl mb-2">
           Photo By John Doe
         </div>
         <ul>
@@ -13,7 +13,14 @@ function App() {
             <strong>Views:</strong>
             4000
           </li>
-          <li></li>
+          <li>
+            <strong>Downloads:</strong>
+            3000
+          </li>
+          <li>
+            <strong>Likes:</strong>
+            300
+          </li>
         </ul>
       </div>
     </div>
