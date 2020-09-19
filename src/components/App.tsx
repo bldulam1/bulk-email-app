@@ -1,29 +1,25 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 function App() {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg">
-      <img src="https://source.unsplash.com/random" alt="" className="w-full" />
-      <div className="px-6 py-4">
-        <div className="font-bold text-purple-600 text-xl mb-2">
-          Photo By John Doe
-        </div>
-        <ul>
-          <li>
-            <strong>Views:</strong>
-            4000
-          </li>
-          <li>
-            <strong>Downloads:</strong>
-            3000
-          </li>
-          <li>
-            <strong>Likes:</strong>
-            300
-          </li>
-        </ul>
+    <Fragment>
+      <div className="flex flex-row items-center px-2 h-12 justify-items-auto">
+        <div>Logo</div>
+        <div className="flex flex-grow flex-col items-center">test</div>
+        <div>Buttons</div>
       </div>
-    </div>
+      <div className="bg-pink-600 flex flex-row justify-between">
+        <div>Breadcrumbs</div>
+        <div>Action area</div>
+      </div>
+      <div className="flex flex-row flex-grow">
+        <div className="flex flex-col bg-blue-500 flex-grow">
+          <div className="flex flex-grow">Data</div>
+          <div className="flex flex-grow">Editor</div>
+        </div>
+        <div className="bg-blue-100 flex-grow">Right</div>
+      </div>
+    </Fragment>
   )
 }
 
