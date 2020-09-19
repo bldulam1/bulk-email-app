@@ -2,6 +2,7 @@
 	"name": "bulk-email-app",
 	"version": "0.1.0",
 	"private": true,
+	"license": "see LICENSE in ./LICENSE",
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.3.2",
@@ -39,7 +40,6 @@
 		]
 	},
 	"devDependencies": {
-		"eslint": "7.2.0",
 		"eslint-config-airbnb": "18.2.0",
 		"eslint-config-prettier": "^6.11.0",
 		"eslint-plugin-import": "2.21.2",
